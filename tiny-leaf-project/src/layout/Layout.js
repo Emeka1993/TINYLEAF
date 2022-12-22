@@ -23,6 +23,7 @@ const Layout = () => {
         </ul>
       </nav>
     </header>
+
     
       <footer>
         Footer
