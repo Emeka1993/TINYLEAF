@@ -2,10 +2,14 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    
   
     <>
     {/* //header */}
+    <header style={{ backgroundColor: '#86907D', padding: '40px' 
+
+  
+  }}>...</header> 
+
     <header>
     <nav>
         
