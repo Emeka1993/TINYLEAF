@@ -1,3 +1,16 @@
 .header {
   background-color: 86907D ;
 }
+
+
+.right-align {
+    float: right;
+  }
+
+
+  .nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
