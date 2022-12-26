@@ -2,3 +2,13 @@ nav {
     display: flex;
     justify-content: flex-end;
   }
+
+  nav a {
+    padding: 0 10px; /* adds 10px of space on the left and right sides of the element's content */
+  }
+
+
+  nav {
+    background-color: #86907D;
+    height: 50px;
+  }
