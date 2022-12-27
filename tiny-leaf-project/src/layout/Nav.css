@@ -13,4 +13,9 @@ nav {
     height: 50px;
   }
 
+  .hero-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
   

@@ -19,10 +19,19 @@ function App() {
        <Route path="/reservation" element={<Reservation />} />
       </Routes>
       </BrowserRouter>
-      
     </div>
+  
+
+
+
   );
 }
+
+
+
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
