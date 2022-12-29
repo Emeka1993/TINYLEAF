@@ -3,8 +3,10 @@ import './Nav.css';
 import './Header.css';
 
 
+
+
 // eslint-disable-next-line
-const heroimagetinyleaf = 'tiny-leaf-project/src/images/heroimagetinyleaf.jpg';
+const heroimagetinyleaf = 'tiny-leaf-project/src/images/tinyleaf1.jpg';
 
 const Layout = () => {
   return (
@@ -17,10 +19,10 @@ const Layout = () => {
         </nav>
         <div
         style={{
-          backgroundImage: `url("tiny-leaf-project/src/images/heroimagetinyleaf.jpg")`,
+          backgroundImage: `url("tiny-leaf-project/src/images/tinyleaf1.jpg")`,
           height: '500px',
+          width: '100%',
           backgroundSize: 'cover',
-          backgroundPosition: 'center'
         }}
       >
         {/* Your content goes here */}
