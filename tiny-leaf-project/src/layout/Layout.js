@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 import './Header.css';
-import HeroImage from './HeroImage';
+import HeroImage from './Hero';
 
 const Layout = () => {
   return (
