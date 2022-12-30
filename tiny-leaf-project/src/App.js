@@ -22,11 +22,6 @@ function App() {
       </Routes>
       </BrowserRouter>
       <div>
-      <HeroImage 
-      imageUrl={'../../images/image2022.png'}
-      heading="Welcome to my website"
-      subheading="This is the best place to be"
-      />
     </div>
     </div>
   );
