@@ -1,4 +1,3 @@
-
 import './Global.css';
 import React from 'react';
 import ReactDOM from "react-dom/client";
@@ -7,7 +6,7 @@ import Home from "./Pages/Home"
 import Menu from "./Pages/Menu"
 import Reservation from "./Pages/Reservation"
 import Layout from './layout/Layout';
-import HeroImage from "./HeroImage";
+import HeroImage from './HeroImage';
 
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
        <Route path="/reservation" element={<Reservation />} />
       </Routes>
       </BrowserRouter>
+      <HeroImage />
       <div>
     </div>
     </div>
