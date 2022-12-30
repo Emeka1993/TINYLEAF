@@ -1,9 +1,9 @@
 import React from 'react';
 import HeroImage from './HeroImage';
 
-function App() {
+function Hero() {
   return (
-    <div className="App">
+    <div className="hero-image">
       <HeroImage
         imageUrl={'../../images/image2022.png'}
         heading="Welcome to my website"
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Hero;
