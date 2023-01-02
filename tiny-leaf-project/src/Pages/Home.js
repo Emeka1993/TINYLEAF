@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './hero.js';
+import Hero from './Hero.js';
 
 function Home() {
   return (
