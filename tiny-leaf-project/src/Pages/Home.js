@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../layout/Hero';
+import Hero from './hero.js';
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
         heading="Welcome to my website"
         subheading="This is the best place to be"
       />
-    </div>
+    </div> 
   )
 }
 

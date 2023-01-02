@@ -1,15 +1,15 @@
 import React from 'react';
 
-
-function Hero() {
+const Hero = ({ imageUrl, heading, subheading }) => {
   return (
     <div className="hero-image">
-        imageUrl={'../../images/image2022.png'}
-        heading="Welcome to my website"
-        subheading="This is the best place to be"
-      />
-    </div>
+      <img src={imageUrl} alt="hero image" />
+      <div className="hero-text">
+      <h1>{heading}</h1>
+      <p>{subheading}</p>
+      </div>
+     </div>
   );
-}
+};
 
 export default Hero;

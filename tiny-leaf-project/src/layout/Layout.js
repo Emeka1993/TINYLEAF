@@ -4,6 +4,7 @@ import './Nav.css';
 import './Header.css';
 import HeroImage from './Hero';
 
+
 const Layout = () => {
   return (
     <div>
