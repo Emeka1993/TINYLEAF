@@ -10,6 +10,7 @@ import Hero from './Pages/Hero';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -21,8 +22,8 @@ function App() {
        <Route path="/reservation" element={<Reservation />} />
       </Routes>
       </BrowserRouter>
-      <Hero />
       <div>
+      <Hero src="/path/to/hero-image.jpg" />
     </div>
     </div>
   );
@@ -39,4 +40,6 @@ root.render(<App />);
 
 
 export default App;
+
+
 
