@@ -6,7 +6,8 @@ import Home from "./Pages/Home"
 import Menu from "./Pages/Menu"
 import Reservation from "./Pages/Reservation"
 import Layout from './layout/Layout';
-import HeroImage from './HeroImage';
+import Hero from './Pages/Hero';
+
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
        <Route path="/reservation" element={<Reservation />} />
       </Routes>
       </BrowserRouter>
-      <HeroImage />
+      <Hero />
       <div>
     </div>
     </div>

@@ -7,7 +7,7 @@ function Home() {
       <h3>
           Hi 
       </h3>
-      <Hero
+      <Hero 
         imageUrl={'../../images/image2022.png'}
         heading="Welcome to my website"
         subheading="This is the best place to be"
