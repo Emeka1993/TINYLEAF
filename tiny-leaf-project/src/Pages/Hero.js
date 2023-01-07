@@ -1,17 +1,18 @@
 import React from 'react';
-import './hero-image.css';
+import heroImage from "../images/heroImage.jpeg"
 
 const Hero = ({ heading, subheading }) => {
   return (
-    <div className="hero-image">
-      <img src={"../images/d784e78d8e35e6cd17a7550cbf6139c7.jpeg"} alt="hero pic" />
-      <div className="hero-text">
-      <h1>{heading}</h1>
-      <p>{subheading}</p>
-      </div>
+   <div>
+     <img className="w-2/2" src={heroImage} alt="hero pic"  />
+     <div className="p-1">
+       <h1 className="text-1g font-semibold">{heading}</h1>
+       <p className="text-neutral-500">{subheading}</p>
      </div>
+   </div>
   );
 };
 
 export default Hero;
+
 

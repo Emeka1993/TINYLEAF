@@ -1,4 +1,3 @@
-import './Global.css';
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
@@ -7,6 +6,7 @@ import Menu from "./Pages/Menu"
 import Reservation from "./Pages/Reservation"
 import Layout from './layout/Layout';
 import Hero from './Pages/Hero';
+import './Globals.css'
 
 
 
@@ -26,6 +26,7 @@ function App() {
       <Hero src="/path/to/hero-image.jpg" />
     </div>
     </div>
+    
   );
 }
 
