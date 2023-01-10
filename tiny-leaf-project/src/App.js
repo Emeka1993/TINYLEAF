@@ -6,7 +6,6 @@ import Menu from "./Pages/Menu"
 import Reservation from "./Pages/Reservation"
 import Layout from './layout/Layout';
 import Hero from './Pages/Hero';
-import './Globals.css'
 
 
 

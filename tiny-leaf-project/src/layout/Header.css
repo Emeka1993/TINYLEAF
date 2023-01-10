@@ -3,6 +3,52 @@ header {
 }
 
 .newlogo {
-  width: 150px;
-  height: 45px;
+  height: 1.9rem;
+ padding-left: 5rem;
 }
+
+
+
+
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Cormorant';
+  
+  }
+
+
+  .links {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 30px;
+    
+    }
+
+  
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      }
+
+
+      .h3 {
+        color: white;
+        font-family: 'Cormorant';
+        font-size: 85px;
+        font-style: normal;
+        line-height: 96.8px;
+        position:absolute;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        }

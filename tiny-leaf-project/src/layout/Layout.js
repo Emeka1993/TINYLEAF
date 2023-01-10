@@ -1,20 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Nav.css';
-import './Header.css';
-import Header from './Header.js'
-import logo from '../images/newlogo.png'
+import Footer from "./Footer";
+import Header from "./Header";
 
-
-
-const Layout = () => {
-  return (
-    <div> 
-      <Header />
-      
-    </div>
-  );
+const Layout = ({children}) => {
+return (
+<>
+<Header/>
+{children }
+<Footer />
+</>
+);
 };
 
 export default Layout;
-

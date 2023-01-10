@@ -1,14 +1,13 @@
 import React from 'react';
+import heroImage from '../images/heroImage.jpeg'
 
 
 
 function Home() {
   return (
     <div>
-      <h3>
-      </h3>
-      <header>
-      </header>
+      <h3 className='h3'> A flavour for all <br /> seasons</h3>
+      <img className='first' src={heroImage} alt='' srcSet=''/>
     </div> 
   )
 }
