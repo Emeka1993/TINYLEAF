@@ -5,7 +5,9 @@ import Home from "./Pages/Home"
 import Menu from "./Pages/Menu"
 import Reservation from "./Pages/Reservation"
 import Layout from './layout/Layout';
-import Hero from './Pages/Hero';
+
+
+
 
 
 
@@ -22,7 +24,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       <div>
-      <Hero src="/path/to/hero-image.jpg" />
+  
     </div>
     </div>
     

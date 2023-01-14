@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './Hero'
+
 
 function Reservation() {
   return (
@@ -7,7 +7,6 @@ function Reservation() {
       <h3>
           Hi
       </h3>
-      <Hero />
     </div>
 
   )

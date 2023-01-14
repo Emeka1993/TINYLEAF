@@ -1,20 +1,15 @@
 import React from 'react';
-import heroImage from "../images/heroImage.jpeg";
-import '../layout/Header.css';
+import heroImage from "../images/heroImage.jpeg"
+import "../layout/Hero.css"
 
-const Hero = ({ heading, subheading }) => {
+
+const Hero = ({img, text}) => {
   return (
-   <div>/
-     <img className="w-1/5" src={heroImage} alt="hero pic"  />
-     <div className="p-1">
-       <h1 className="text-1g font-semibold">{heading}</h1>
-       <p className="text-neutral-500">{subheading}</p>
-     </div>
-   </div>
-  );
-};
-
+    <div className='hero'>
+      <img src={heroImage} alt="" />
+        <h1>{text}</h1>
+    </div>
+  )
+}
 
 export default Hero;
-
-

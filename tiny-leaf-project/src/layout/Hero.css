@@ -1,0 +1,17 @@
+.hero p {
+    font-size: var(--hero-font);
+}
+
+.hero img {
+    max-width: 100%;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: var(--color-white);
+}

@@ -1,0 +1,38 @@
+.about {
+    padding: 2rem 4rem;
+    display: flex;
+}
+
+
+.image-one {
+    position: absolute;
+    top: 5%;
+    left: -5%;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 4rem;
+}
+
+.about-text-paragraph {
+    padding-bottom: 4rem;
+    padding-top: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.about-text-subheading {
+    color: var(--color-biscuit);
+    padding-top: 2rem;
+    font-size: 4rem;
+}
+
+.about-img {
+    flex: 1;
+}
+
+.about-img img {
+    max-width: 95%;
+}
+
+

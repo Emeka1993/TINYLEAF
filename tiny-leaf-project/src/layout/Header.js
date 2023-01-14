@@ -3,10 +3,13 @@ import { Outlet, Link } from "react-router-dom";
 import logo from "../images/newlogo.png";
 import "./Header.css";
 
+
+
 function Header() {
   return (
     <div>
       <header  className="header">
+        
         <img className="newlogo" src={logo} alt="" srcSet="" />
         <nav>
           <ul className="links">

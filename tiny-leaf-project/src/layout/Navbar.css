@@ -1,0 +1,29 @@
+.navbar {
+    background-color: var(--color-sage);
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    padding-right: 2rem;
+    
+}
+
+.navbar ul {
+    list-style: none;
+   padding-top: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
