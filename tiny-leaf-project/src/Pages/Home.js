@@ -20,7 +20,7 @@ function Home() {
           <h2 className="subheading-about-text">Hand-picked and sustainable</h2> 
         </section>
         <section className="about-img">
-          <img src={blends} alt="" />
+          <img src={blends} alt="blendpicture" />
         </section>
       </div> 
     <section className="grid-container">
