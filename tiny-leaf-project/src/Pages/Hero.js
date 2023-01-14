@@ -7,7 +7,7 @@ const Hero = ({img, text}) => {
   return (
     <div className='hero'>
       <img src={heroImage} alt="" />
-        <h1>{text}</h1>
+        <h1>{"A Flavour For All Seasons"}</h1>
     </div>
   )
 }

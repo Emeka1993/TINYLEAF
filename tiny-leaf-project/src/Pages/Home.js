@@ -1,13 +1,28 @@
 import React from 'react';
-import heroImage from '../images/heroImage.jpeg'
-import Hero from './Hero';
-import Navbar from '../layout/Navbar';
+import blends from '../images/blends.jpeg'
 import '../layout/Globals.css';
+import '../layout/Hero.css';
 
 function Home() {
   return (
     <div>
       <body>
+      <div className="about">
+        <section className="about-text">
+          <h2>Our blends</h2>
+          <p className="paragraph-about-text"> 
+            We make our very own Tiny Leaf blends right here in the tea house,
+            offering new flavours according to the season. We source all our
+            produce sustainably and make sure the hands that laboured for our
+            flavoursome cups were rewarded fairly.
+          </p>
+          <hr className="horizontal-line" /> 
+          <h2 className="subheading-about-text">Hand-picked and sustainable</h2> 
+        </section>
+        <section className="about-img">
+          <img src={blends} alt="" />
+        </section>
+      </div> 
     <section className="grid-container">
       <div className="green-box"></div>
       <div className="text-box">
@@ -23,8 +38,11 @@ function Home() {
     </section>
   </body>
     </div>
+
   );
 }
+
+
 
 
 export default Home
