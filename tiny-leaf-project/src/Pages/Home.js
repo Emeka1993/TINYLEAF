@@ -1,7 +1,12 @@
 import React from 'react';
-import blends from '../images/blends.jpeg'
 import '../layout/Globals.css';
 import '../layout/Hero.css';
+
+
+
+import blends from '../images/blends.jpeg'
+import teapot from '../images/teapot.png'
+
 
 function Home() {
   return (
@@ -34,6 +39,7 @@ function Home() {
         </p>
       </div>
       <div className="teapot-image"></div>
+      <img src={teapot} alt="teapot" />
       <div className="flowers-image"></div>
     </section>
   </body>

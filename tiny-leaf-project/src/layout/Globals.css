@@ -60,18 +60,6 @@ min-height: 4vh;
 
 
 
-/* Gallery */
-.gallery {
-  padding: 4rem 0;
-  margin-left: 4rem;
-  display: flex;
-}
-
-.gallery-img {
-  max-width: 44%;
-  height: auto;
-}
-
 
 .grid-container {
   border: 2px solid #daa520;
