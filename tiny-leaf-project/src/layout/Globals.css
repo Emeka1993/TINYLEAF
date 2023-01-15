@@ -83,6 +83,9 @@ min-height: 4vh;
   background-color: yellow;
   grid-column: 1 / 3;
   grid-row: 2 / 5;
+  width: 700%;
+  height: auto;
+  height: fit-content;
 }
 
 .flowers-image {

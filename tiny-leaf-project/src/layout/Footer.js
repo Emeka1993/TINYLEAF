@@ -3,9 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <p>Tiny Leaf Tea House</p>
+      <p></p>
       <div>
-       <p>Opening Hours</p>
+       <p></p>
       </div>
     </div>
   )
