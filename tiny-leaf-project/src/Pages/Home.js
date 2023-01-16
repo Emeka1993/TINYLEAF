@@ -6,6 +6,7 @@ import '../layout/Hero.css';
 
 import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
+import flowersimage from '../images/flowersimage.png'
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
       <div className="teapot-image"></div>
       <img src={teapot} alt="teapot" />
       <div className="flowers-image"></div>
+      <img src={flowersimage} alt="teapot" />
     </section>
   </body>
     </div>
