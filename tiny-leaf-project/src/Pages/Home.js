@@ -1,8 +1,6 @@
 import React from 'react';
 import '../layout/Globals.css';
 import '../layout/Hero.css';
-import Reservation from "../Pages/Reservation";
-import Footer from '../layout/Footer';
 
 
 
@@ -10,9 +8,6 @@ import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowersimage from '../images/flowersimage.png'
 import blue from '../images/blue.png'
-import img1 from '../images/image1.png'
-import img2 from '../images/image2.png'
-import img3 from '../images/image3.png'
 
 
 function Home() {
@@ -45,10 +40,8 @@ function Home() {
           contemplate.
         </p>
       </div>
-      <div className="teapot-image"></div>
-      <img src={teapot} alt="teapot" />
-      <div className="flowers"></div>
-      <img src={flowersimage} alt="flowers-pic" />
+      <img className="teapot" src={teapot} alt="teapot" />
+      <img className="flowersimage" src={flowersimage} alt="flowers-pic" />
     </section>
   </body>
   <div>
