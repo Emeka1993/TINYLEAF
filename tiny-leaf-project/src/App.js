@@ -10,6 +10,7 @@ import Layout from './layout/Layout';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
       <Routes >
        <Route path="/home" element={<Home />} />
        <Route path="/menu" element={<Menu />} />
-       <Route path="/reservation" element={<Reservation />} />
+       <Route path="/Reservation" element={<Reservation />} />
       </Routes>
       </BrowserRouter>
       <div>

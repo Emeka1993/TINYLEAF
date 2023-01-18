@@ -1,15 +1,12 @@
 import React from 'react'
+import blue from '../images/blue.png'
+import leaves from '../images/leaves.png'
 
+    const Reservation = ({img, text}) => {
+      return (
+      <div></div>
+      )
+    }
 
-function Reservation() {
-  return (
-    <div>
-      <h3>
-          
-      </h3>
-    </div>
-
-  )
-}
 
 export default Reservation

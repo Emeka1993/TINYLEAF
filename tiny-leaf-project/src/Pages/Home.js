@@ -1,12 +1,18 @@
 import React from 'react';
 import '../layout/Globals.css';
 import '../layout/Hero.css';
+import Reservation from "../Pages/Reservation";
+import Footer from '../layout/Footer';
 
 
 
 import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowersimage from '../images/flowersimage.png'
+import blue from '../images/blue.png'
+import img1 from '../images/image1.png'
+import img2 from '../images/image2.png'
+import img3 from '../images/image3.png'
 
 
 function Home() {
@@ -41,11 +47,19 @@ function Home() {
       </div>
       <div className="teapot-image"></div>
       <img src={teapot} alt="teapot" />
-      <div className="flowers-image"></div>
-      <img src={flowersimage} alt="teapot" />
+      <div className="flowers"></div>
+      <img src={flowersimage} alt="flowers-pic" />
     </section>
   </body>
+  <div>
+      <img src={blue} alt="flowers-pic" className="img-center" />
+      <div className="center">
+        <h3>{"Make a reservation"}</h3>
+        <p>{"For anything from a catchup with a long lost friend to a book club gathering... we're always ready to put the kettle on."}</p>
+        <button>{"Reserve a table"}</button>
+      </div>
     </div>
+     </div>
 
   );
 }
@@ -54,4 +68,5 @@ function Home() {
 
 
 export default Home
+
 
