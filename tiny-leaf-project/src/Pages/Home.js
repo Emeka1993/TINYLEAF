@@ -8,6 +8,9 @@ import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowersimage from '../images/flowersimage.png'
 import blue from '../images/blue.png'
+import image1 from "../images/image1.jpg"
+import image2 from "../images/image2.jpg"
+import image3 from "../images/image3.jpg"
 
 
 function Home() {
@@ -44,22 +47,22 @@ function Home() {
       <img className="flowersimage" src={flowersimage} alt="flowers-pic" />
     </section>
   </body>
-  <div>
-      <img src={blue} alt="flowers-pic" className="img-center" />
+  <img src={blue} alt="flowers-pic" className="img-center" />
       <div className="center">
         <h3>{"Make a reservation"}</h3>
         <p>{"For anything from a catchup with a long lost friend to a book club gathering... we're always ready to put the kettle on."}</p>
+        <div className='button'></div>
         <button>{"Reserve a table"}</button>
       </div>
-    </div>
-     </div>
-
+    <div className="gallery-container">
+    <h3>Gallery</h3>
+    <img src={image1} alt="gallerypic1" className="gallery" />
+    <img src={image2} alt="gallerypic2" className="gallery" />
+    <img src={image3} alt="gallerypic3" className="gallery" />
+ </div> 
+ </div>
   );
 }
 
 
-
-
 export default Home
-
-

@@ -10,6 +10,7 @@ const Footer = () => {
               <th>Opening hours</th>
               <th>Address</th>
               <th>Contact</th>
+          
             </tr>
             <tr>
               <td>
