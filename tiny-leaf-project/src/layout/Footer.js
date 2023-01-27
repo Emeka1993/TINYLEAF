@@ -3,6 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
+    
     <div style={{backgroundColor: '#86907D', color: 'White', textAlign: 'right', padding: '90px'}}>
       <img src={require('../images/newlogo.png')} style={{float: 'left', height: '50px'}} alt="Logo" />
       <table style={{float: 'right'}}>

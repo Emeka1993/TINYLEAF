@@ -6,8 +6,8 @@ import "../layout/Hero.css"
 const Hero = ({img, text}) => {
   return (
     <div className='hero'>
-      <img src={heroImage} alt="" />
-        <h1>{"A Flavour For All Seasons"}</h1>
+      <img src={img} alt="" />
+        <h1>{text}</h1>
     </div>
   )
 }
