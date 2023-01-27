@@ -18,6 +18,5 @@ return (
 );
 };
 
-
 export default Layout;
 
