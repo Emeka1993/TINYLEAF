@@ -79,7 +79,7 @@ function Home() {
   <section>
     <div className="title">Gallery</div>
     <div className="slider-container">
-      <img src={images[currentIndex]} alt="slider-image" className="slider-image" />
+      <img src={images[currentIndex]} alt="slider-pic" className="slider-pic" />
       <button className="slider-button1" onClick={handlePrevious}>Previous</button>
       <button className="slider-button" onClick={handleNext}>Next</button>
     </div>

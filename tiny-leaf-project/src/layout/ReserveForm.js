@@ -12,7 +12,7 @@ const ReserveForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //form submission logic here
+  
   };
 
   return (
