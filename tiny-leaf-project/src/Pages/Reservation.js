@@ -15,11 +15,10 @@ import '../layout/Globals.css'
        <ReserveForm />
        <Hero img={Background} text="No storms in our tea cups" className="blends" />;
        <h3>{"We make our blends with love and care, so you can taste aromas from across the globe right here in our tea house"}</h3>
-      />
       </div>
-     
+      
       )
-    };
+    }
 
 
 export default Reservation

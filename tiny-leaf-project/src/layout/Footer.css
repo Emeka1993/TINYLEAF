@@ -1,0 +1,21 @@
+.footer {
+    background-color: #86907D;
+    color: white;
+    text-align: right;
+    padding: 90px;
+
+  }
+  
+  .footer img {
+    float: left;
+    height: 50px;
+  }
+  
+  .footer table {
+    float: right;
+  }
+  
+  .footer th {
+    text-align: left;
+  }
+  

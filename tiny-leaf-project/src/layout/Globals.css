@@ -1,0 +1,376 @@
+
+
+
+about {
+  padding: 2rem 4rem;
+  display: flex;
+  }
+  @media (max-width: 480px) {
+  about {
+  padding: 1rem 2rem;
+  }
+  }
+  .about-text {
+  flex: 1;
+  margin-right: 4rem;
+  }
+  @media (max-width: 480px) {
+  .about-text {
+  margin-right: 2rem;
+  }
+  }
+  .subheading-about-text {
+  color: #f0d989;
+  font-family: Cormorant,serif;
+  font-size: 4rem;
+  padding-top: 2rem;
+  }
+  @media (max-width: 480px) {
+  .subheading-about-text {
+  font-size: 2rem;
+  }
+  }
+  .paragraph-about-text {
+  padding-bottom: 4rem;
+  padding-top: 1.2rem;
+  line-height: 1.5rem;
+  }
+  @media (max-width: 480px) {
+  .paragraph-about-text {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  line-height: 1.2rem;
+  }
+  }
+  .about-img {
+  flex: 1;
+  }
+  @media (max-width: 480px) {
+  .about-img {
+  flex: 0;
+  }
+  }
+  .about-img img {
+  max-width: 95%;
+  }
+  @media (max-width: 480px) {
+  .about-img img {
+  max-width: 90%;
+  }
+  }
+  /* the horizontal line */
+  .horizontal-line {
+  border-top: 1px solid var(--color-biscuit);
+  width: 25%;
+  }
+  @media (max-width: 480px) {
+  .horizontal-line {
+  width: 50%;
+  }
+  }
+  /* wise leaf evenings */
+  .wise-leaf-evenings {
+  background-color: var(--color-sage);
+  margin: 2rem 7rem;
+  position: relative;
+  min-height: 4vh;
+  }
+  @media (max-width: 480px) {
+  .wise-leaf-evenings {
+  margin: 1rem 2rem;
+  }
+  }
+  .wise-leaf-text {
+  max-width: 40%;
+  margin: 4rem;
+  float: right;
+  }
+  @media (max-width: 480px) {
+  .wise-leaf-text {
+  max-width: 90%;
+  margin: 2rem;
+  float: none;
+  }
+  }
+  .wise-leaf-text p {
+  line-height: 1.3rem;
+  padding-top: 2rem;
+  }
+  @media (max-width: 480px) {
+  .wise-leaf-text p {
+  line-height: 1.2rem;
+  padding-top: 1rem;
+  }
+  }
+  .grid-container {
+  border: 2px solid #daa520;
+  display: grid;
+  grid-template-columns: 60px 5fr 80px 6fr 60px;
+  
+  }
+  
+  .green-box {
+  background-color: #86907D;
+  grid-column: 2 / 5;
+  grid-row: 1 / 4;
+  }
+  @media (max-width: 480px) {
+  .green-box {
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+  }
+  }
+  .text-box {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  }
+  @media (max-width: 480px) {
+  .text-box {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  }
+  }
+  .teapot {
+  grid-column: 1 / 3;
+  grid-row: 2 / 5;
+  }
+  @media (max-width: 480px) {
+  .teapot {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  }
+  }
+  .flowersimage {
+  background-color: rgb(0, 0, 0);
+  grid-column: 4 /6;
+  grid-row: 3 / 5;
+  }
+  @media (max-width: 480px) {
+  .flowersimage {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  }
+  }
+  .img-center {
+  display: block;
+  }
+  @media (max-width: 480px) {
+  .img-center {
+  display: flex;
+  justify-content: center;
+  }
+  }
+  .center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: -400px;
+  }
+  @media (max-width: 480px) {
+  .center {
+  margin-top: -200px;
+  }
+  }
+  .gallery-container h3 {
+  color: black;
+  }
+  @media (max-width: 480px) {
+  .gallery-container h3 {
+  font-size: 1.2rem;
+  }
+  }
+  .gallery-container {
+  margin-top: 350px;
+  }
+  @media (max-width: 480px) {
+  .gallery-container {
+  margin-top: 250px;
+  }
+  }
+  /* Reserve form */
+  .reserve-form {
+  height: 711px;
+  text-align: center;
+  }
+  @media (max-width: 480px) {
+  .reserve-form {
+  height: auto;
+  }
+  }
+  .style-form h1 {
+  text-align: center;
+  }
+  @media (max-width: 480px) {
+  .style-form h1 {
+  font-size: 1.5rem;
+  }
+  }
+  .style-form p {
+  text-align: center;
+  }
+  @media (max-width: 480px) {
+  .style-form p {
+  font-size: 1.2rem;
+  }
+  }
+
+
+  .slider-container{
+    margin-top: 300px;
+  }
+
+
+
+
+  /* Menu */
+  .menu-item h1{
+    text-align: center;
+    margin-top: -47px;
+    background-color: white;
+    width: 25%;
+  }
+
+
+
+  .menu-container h1, .menu-container h2, .menu-container p, .menu-container {
+  font-family: 'Cormorant', serif;
+}
+
+  
+  .menu-container2{
+    position: relative;
+    top: -500px;
+    left: 20px;
+  }
+
+   .menu-container{
+     margin-top: 200px;
+     flex-wrap: wrap;
+     align-items: center;
+     
+   }
+
+    .menu-item{
+      padding-left: 100px;
+    }
+
+    .menu-item .price{
+      padding-left: 900px;
+      margin-top: -35px;
+  }
+
+   
+  .frame{
+    margin-top: 200px;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .input-box {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+
+   
+  .group label{
+    width: 200px;
+    height: 30px;
+    padding: 11px;
+    margin: 5px;
+  }
+
+
+  .special-week{
+    font-family: 'Cormorant', serif;
+    }
+
+
+
+    .menu-item {
+      font-family: 'Cormorant', serif;
+    }
+
+    .centered-content {
+      display: flex;
+      align-items: center;
+      color: white;
+      justify-content: center;
+      margin-top: 290px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+      
+      .reserve-button {
+      background-color: white;
+      color: rgb(0, 163, 87);
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      }
+
+      .background-pic-container{
+        margin-top: 300px;
+      }
+      
+      
+      
+      
+      /* Reserve */
+      
+      .blends h3{
+        margin-top: 100px;
+      
+      }
+
+
+
+       /* Slide */
+
+      .slider-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    
+
+    .slider-container {
+      position: relative; 
+      padding-top: 100px; 
+     
+    }
+    
+    .slider-button {
+      position: absolute; 
+      top: 0; 
+      transform: translateY(50px);
+    }
+
+    .slider-button1 {
+      position: absolute; 
+      left: 36rem;
+      top: 0; 
+
+    }
+
+    .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 3220px;
+      right: 25rem;
+    }
+    
+    
