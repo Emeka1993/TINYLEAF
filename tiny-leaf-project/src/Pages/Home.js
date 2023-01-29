@@ -1,4 +1,3 @@
-
 import '../layout/Globals.css';
 import '../layout/Hero.css';
 
@@ -6,7 +5,7 @@ import '../layout/Hero.css';
 
 import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
-import flowersimage from '../images/flowersimage.png'
+import flowerspic from '../images/flowersimage.png'
 import blue from '../images/blue.png'
 import image1 from "../images/image1.jpg"
 import image2 from "../images/image2.jpg"
@@ -45,7 +44,7 @@ function Home() {
   We make our very own Tiny Leaf blends right here in the tea house,
   offering new flavours according to the season. We source all our
   produce sustainably and make sure the hands that laboured for our
-  flavoursome cups were rewarded fairly.
+  flavour some cups were rewarded fairly.
   </p>
   <hr className="horizontal-line" />
   <h2 className="subheading-about-text">Hand-picked and sustainable</h2>
@@ -65,7 +64,7 @@ function Home() {
   </p>
   </div>
   <img className="teapot" src={teapot} alt="teapot" />
-  <img className="flowersimage" src={flowersimage} alt="flowers-pic" />
+  <img className="flowersimage" src={flowerspic} alt="flowers-pic" />
   </section>
   
     </body>

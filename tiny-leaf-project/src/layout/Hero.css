@@ -9,12 +9,13 @@
 .hero img {
     max-width: 102%;
     grid-area: picture;
-  
 }
 
 .hero h1 {
   grid-area: picture;
   color: white;
+  font-family: 'Cormorant';
+  font-size: 88px;
   max-width: 30rem;
 }
 
