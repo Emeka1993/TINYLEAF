@@ -3,7 +3,7 @@
     color: white;
     text-align: right;
     padding: 90px;
-    
+    height: 100px;
 
   }
   
@@ -20,3 +20,30 @@
     text-align: left;
   }
   
+  .header-cell1 {
+    padding-left: 45px;
+  }
+  
+  .header-cell2 {
+    padding-left: 40px;
+  }
+
+
+  .header-cell3 {
+    padding-left: 80px;
+  }
+
+
+
+
+  .cell1 {
+    padding-right: 50px;
+  }
+  
+  .cell2 {
+    padding-right: 50px;
+  }
+
+  .cell3 {
+    padding-right: 20px;
+  }

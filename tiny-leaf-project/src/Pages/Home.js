@@ -76,7 +76,7 @@ function Home() {
           <button>{"Reserve a table"}</button>
           <div>
   <section>
-    <div className="title">Gallery</div>
+    <div className="title"></div>
     <div className="slider-container">
       <img src={images[currentIndex]} alt="slider-pic" className="slider-pic" />
       <button className="slider-button1" onClick={handlePrevious}>Previous</button>

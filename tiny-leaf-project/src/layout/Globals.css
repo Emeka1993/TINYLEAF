@@ -43,7 +43,8 @@ about {
   }
   }
   .about-img {
-  flex: 1;
+    flex: 0.5;
+    margin-top: 100px;
   }
   @media (max-width: 480px) {
   .about-img {
@@ -103,10 +104,10 @@ about {
   }
   }
   .grid-container {
-  border: 2px solid #daa520;
+  border: 2px solid #ffffff;
   display: grid;
   grid-template-columns: 60px 5fr 80px 6fr 60px;
-  
+  margin-top: 100px;
   }
   
   .green-box {
@@ -153,6 +154,7 @@ about {
   }
   .img-center {
   display: block;
+  margin: 100px auto 0;
   }
   @media (max-width: 480px) {
   .img-center {
@@ -167,6 +169,62 @@ about {
   height: 100%;
   margin-top: -400px;
   }
+
+
+
+
+  
+
+  .center h3 {
+    color: white;
+    font-family: 'Cormorant';
+    font-size: 88px;
+    margin-top: -10px;
+  }
+
+  .center p {
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    line-height: 1.2;
+
+  }
+
+
+
+  button {
+    background-color: white;
+    color: #86907D;
+    padding: 10px 20px;
+    font-family: "Cormorant";
+    border: 1px solid black;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media (max-width: 480px) {
   .center {
   margin-top: -200px;
@@ -348,22 +406,34 @@ about {
 
     .slider-container {
       position: relative; 
-      padding-top: 100px; 
-     
+      padding-top: 90px; 
+      
     }
     
+   
     .slider-button {
-      position: absolute; 
-      top: 0; 
+      position: absolute;
+      top: -50px;
+      left: 20;
       transform: translateY(50px);
-    }
 
+    }
+    
     .slider-button1 {
-      position: absolute; 
-      left: 36rem;
-      top: 0; 
-
+      position: absolute;
+      right: 48rem;
+      top: 0;
     }
+    
+
+
+
+
+
+
+
+
+
 
     .title {
       position: absolute;
@@ -373,4 +443,14 @@ about {
       right: 25rem;
     }
     
+    
+
+    /* Home */
+    .about-text {
+      margin-top: 10px;
+      display: inline-block;
+      float: left;
+      width: 60%;
+      margin-right: 2%;
+    }
     
