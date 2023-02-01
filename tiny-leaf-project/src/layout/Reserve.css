@@ -1,0 +1,39 @@
+
+  h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Cormorant";
+    
+  }
+  
+  .tea-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tea-info h3 {
+    position: absolute;
+    color: white;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .menu-button {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    top: -150px;
+    margin-bottom: -50px;
+    position: relative;
+  }
+
+  .blends {
+    padding-bottom: 20px;
+  }

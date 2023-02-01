@@ -3,6 +3,8 @@ import '../layout/Hero.css';
 
 
 
+
+
 import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowerspic from '../images/flowersimage.png'
@@ -19,20 +21,9 @@ import heroImage from "../images/heroImage.jpeg"
 
 import React, { useState } from 'react';
 
+import GallerySpin from './GallerySpin';
+
 function Home() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [image1, image2, image3, image4];
-  
-  const handlePrevious = () => {
-  const newIndex = currentIndex - 1;
-  setCurrentIndex(newIndex < 0 ? images.length - 1 : newIndex);
-  }
-  
-  const handleNext = () => {
-  const newIndex = currentIndex + 1;
-  setCurrentIndex(newIndex === images.length ? 0 : newIndex);
-  }
-  
   return (
   <div>
   <body>
@@ -75,14 +66,7 @@ function Home() {
           <div className='button'></div>
           <button>{"Reserve a table"}</button>
           <div>
-  <section>
-    <div className="title"></div>
-    <div className="slider-container">
-      <img src={images[currentIndex]} alt="slider-pic" className="slider-pic" />
-      <button className="slider-button1" onClick={handlePrevious}>Previous</button>
-      <button className="slider-button" onClick={handleNext}>Next</button>
-    </div>
-  </section>
+          <GallerySpin />
 </div>
 
    </div> 

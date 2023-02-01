@@ -290,6 +290,17 @@ about {
   }
 
 
+  img[alt="hero-menu"] {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .background-pic-container{
+  display: block;
+  width: 100%;
+  height: auto;
+  }
 
   .menu-container h1, .menu-container h2, .menu-container p, .menu-container {
   font-family: 'Cormorant', serif;
@@ -299,7 +310,7 @@ about {
   .menu-container2{
     position: relative;
     top: -500px;
-    left: 20px;
+    left: 90px;
   }
 
    .menu-container{
@@ -394,6 +405,24 @@ about {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        /* Slide */
 
       .slider-container {
@@ -446,3 +475,5 @@ about {
       margin-right: 2%;
     }
     
+
+  

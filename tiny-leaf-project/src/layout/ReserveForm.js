@@ -1,96 +1,93 @@
 import React, { useState } from "react";
-import "../layout/Globals.css"
+import "../layout/Form.css"
 
-const ReserveForm = () => {
+
+function ReserveForm() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [groupSize, setGroupSize] = useState("");
   const [name, setName] = useState("");
   const [contactNumber, setContactNumber] = useState("");
   const [comments, setComments] = useState("");
-  const [acceptedTerms, setAcceptedTerms] = useState(false);
+  const [acceptTerms, setAcceptTerms] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log({ date, time, groupSize, name, contactNumber, comments });
   };
 
-  return (
-    <div className="style-form">
-      <h1>Reserve a Table</h1>
-      <p>We take bookings for groups up to 6. We get busy on weekends so best to book early to avoid disappointment!</p>
-      <form className="reserve-form" onSubmit={handleSubmit}>
-        <label>
-          Date:
-          <input
-           className="input-box"
-            type="date"
-            value={date}
-            onChange={(e) => setDate(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Time:
-          <input
-          className="input-box"
-            type="time"
-            value={time}
-            onChange={(e) => setTime(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Group Size:
-          <input
-          className="group"
-            type="number"
-            value={groupSize}
-            onChange={(e) => setGroupSize(e.target.value)}
-            min="1"
-            max="6"
-          />
-        </label>
-        <br />
-        <label>
-          Name:
-          <input
-          className="input-box"
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Contact Number:
-          <input
-          className="input-box"
-            type="tel"
-            value={contactNumber}
-            onChange={(e) => setContactNumber(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Comments/Requests:
-          <textarea value={comments} onChange={(e) => setComments(e.target.value)} />
-        </label>
-        <br />
-        <label>
-          <input
-          className="input-box"
-            type="checkbox"
-            checked={acceptedTerms}
-            onChange={(e) => setAcceptedTerms(e.target.checked)}
-          />
-          By requesting this booking, I am accepting Tiny Leaf's Terms and Conditions.
-        </label>
-        <br />
-        <button style={{backgroundColor: "#86907D"}} type="submit">Submit</button>
-      </form>
-    </div>
-  );
-};
+
+    return (
+      <>
+        <div className="title-subtitle">
+          <h2>Reserve a Table</h2>
+          <p>We take bookings for groups up to 6. We get busy on weekends so best to book early to avoid disappointment!</p>
+        </div>
+        <div className="center-form">
+          <form onSubmit={handleSubmit}>
+            <div>
+              <input
+                className="form-date"
+                type="text"
+                placeholder="Date"
+                value={date}
+                onChange={(event) => setDate(event.target.value)}
+              />
+              <input
+                className="form-time"
+                type="text"
+                placeholder="Time"
+                value={time}
+                onChange={(event) => setTime(event.target.value)}
+              />
+              <input
+                className="form-text"
+                type="text"
+                placeholder="Group Size"
+                value={groupSize}
+                onChange={(event) => setGroupSize(event.target.value)}
+              />
+            </div>
+            <div>
+              <input
+                className="form-name"
+                type="text"
+                placeholder="Name"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+              />
+              <input
+                className="form-number"
+                type="text"
+                placeholder="Contact Number"
+                value={contactNumber}
+                onChange={(event) => setContactNumber(event.target.value)}
+              />
+            </div>
+            <div>
+              <textarea
+                className="form-comment"
+                placeholder="Comments/Requests"
+                value={comments}
+                onChange={(event) => setComments(event.target.value)}
+              />
+            </div>
+            <div>
+              <input
+                className="checkbox-box"
+                type="checkbox"
+                checked={acceptTerms}
+                onChange={(event) => setAcceptTerms(event.target.checked)}
+              />
+              By requesting this booking, I am accepting Tiny Leaf's Terms and Conditions.
+            </div>
+            <button type="submit" className="button">
+              Reserve
+            </button>
+          </form>
+        </div>
+      </>
+    );
+}
 
 export default ReserveForm;

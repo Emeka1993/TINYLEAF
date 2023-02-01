@@ -1,0 +1,103 @@
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.form-date{
+  margin-bottom: 20px;
+  height: 30px;
+  
+}
+
+.form-name{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+input {
+  border-color: #5A684C;
+}
+
+
+.form-date {
+  margin-right: 0.5rem;
+  height: 30px;
+}
+.form-time {
+  margin-right: 0.5rem;
+  height: 30px;
+}
+
+
+.form-date {
+  margin-right: 0.5rem;
+}
+
+.form-text {
+  margin-right: 0.5rem;
+  height: 30px;
+}
+
+.form-name {
+  margin-right: 0.5rem;
+}
+
+.form-number {
+  margin-right: 0.5rem;
+  height: 30px;
+}
+
+
+.button {
+  background-color: #9DC183;
+
+  font-family: Cormorant;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+
+
+.form-comment {
+  height: 3cm;
+  width: 450px;
+  border-color: #5A684C;
+}
+
+.form-number {
+  width: 294px;
+}
+
+.checkbox-box {
+  margin-top: 15px;
+  font-size: 6px;
+}
+
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -150px;
+}
+
+.center-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-subtitle h2{
+  font-family: "Cormorant", serif;
+}
+
+
+.title-subtitle p{
+  font-family: "Roboto";
+
+}
+
+.button {
+  color: white;
+  }

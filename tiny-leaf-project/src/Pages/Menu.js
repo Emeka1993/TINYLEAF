@@ -12,7 +12,7 @@ import specials from '../images/specialsmenu.png'
 const Menu = () => {
   return (
     <div>
-      <img src={Hero} alt="hero" />
+      <img src={Hero} alt="hero-menu" />
       <div className="menu-container">
         <div className="menu-item">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
