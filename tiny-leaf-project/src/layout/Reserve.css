@@ -37,3 +37,37 @@
   .blends {
     padding-bottom: 20px;
   }
+
+  @media (max-width: 767px) {
+    h3 {
+    font-size: 20px;
+    }
+    
+    .tea-info h3 {
+    top: 200%;
+    }
+    
+    .menu-button {
+    font-size: 14px;
+    margin-bottom: -25px;
+    }
+    }
+    
+    @media (max-width: 479px) {
+    h3 {
+    font-size: 18px;
+    }
+    
+    .tea-info h3 {
+    top: 200%;
+    }
+    
+    .menu-button {
+    font-size: 12px;
+    margin-bottom: -25px;
+    }
+    }
+    
+    
+    
+    

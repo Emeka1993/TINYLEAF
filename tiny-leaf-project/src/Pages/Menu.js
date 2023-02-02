@@ -7,8 +7,6 @@ import specials from '../images/specialsmenu.png'
 
 
 
-
-
 const Menu = () => {
   return (
     <div>

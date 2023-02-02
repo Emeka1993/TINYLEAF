@@ -306,7 +306,7 @@ about {
   font-family: 'Cormorant', serif;
 }
 
-  
+
   .menu-container2{
     position: relative;
     top: -500px;
@@ -477,3 +477,11 @@ about {
     
 
   
+
+    .background-pic-container {
+      position: relative;
+      margin: -200px;
+      right: 10px;
+      margin-top: 410px;
+    }
+    
