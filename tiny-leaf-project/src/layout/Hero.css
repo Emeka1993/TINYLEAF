@@ -7,6 +7,7 @@
 .hero img {
   max-width: 102%;
   grid-area: picture;
+  margin-top: 80px;
 }
 
 

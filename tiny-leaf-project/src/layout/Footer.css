@@ -51,30 +51,41 @@
 
 
   
-  @media only screen and (max-width: 767px) {
-    .footer {
-    padding: 50px;
+  @media (max-width: 767px) {
+    footer {
+    padding: 2rem;
+    text-align: center;
     }
+    
     .footer img {
-    float: none;
+    display: block;
+    margin: 0 auto;
     height: 30px;
+    }
+    
+    .footer table {
     display: block;
     margin: 0 auto;
     }
-    .footer table {
-    float: none;
-    margin: 0 auto;
-    }
+    
     .opening-hours,
     .Address,
-    .Contact,
+    .Contact {
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+    }
+    
     .hours,
     .main-address,
     .contact-us {
-    padding: 20px 0;
+    padding-right: 0;
     text-align: center;
     }
     }
+    
+    
+    
     
     
     
