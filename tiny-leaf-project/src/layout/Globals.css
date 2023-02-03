@@ -152,16 +152,21 @@ about {
   grid-row: 4 / 5;
   }
   }
+  
   .img-center {
   display: block;
   margin: 100px auto 0;
   }
-  @media (max-width: 480px) {
-  .img-center {
-  display: flex;
-  justify-content: center;
+
+
+  @media only screen and (max-width: 767px) {
+    .img-center {
+      display: block;
+      margin: 50px auto 0;
+    }
   }
-  }
+  
+
   .center {
   text-align: center;
   align-items: center;

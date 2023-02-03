@@ -50,7 +50,7 @@ function Home() {
   </section>
   
     </body>
-    <img src={blue} alt="flowers-pic" className="img-center" />
+    <img src={blue} alt="flowers-pic" className="c" />
         <div className="center">
           <h3>{"Make a reservation"}</h3>
           <p>{"For anything from a catchup with a long lost friend to a book club gathering... we're always ready to put the kettle on."}</p>
