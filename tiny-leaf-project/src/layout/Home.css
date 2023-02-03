@@ -31,3 +31,24 @@
 }
 
 
+
+@media only screen and (max-width: 767px) {
+    .about {
+      flex-direction: column;
+      padding: 2rem;
+    }
+  
+    .about-text {
+      margin-right: 0;
+      padding-bottom: 2rem;
+    }
+  
+    .about-text-subheading {
+      font-size: 2rem;
+    }
+  
+    .about-img {
+      padding-top: 2rem;
+    }
+  }
+  
