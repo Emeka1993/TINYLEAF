@@ -9,17 +9,8 @@ import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowerspic from '../images/flowersimage.png'
 import blue from '../images/blue.png'
-import image1 from "../images/image1.jpg"
-import image2 from "../images/image2.jpg"
-import image3 from "../images/image3.jpg"
-import image4 from "../images/image4.jpg"
 import Hero from './Hero';
 import heroImage from "../images/heroImage.jpeg"
-
-
-
-
-import React, { useState } from 'react';
 
 import GallerySpin from './GallerySpin';
 
