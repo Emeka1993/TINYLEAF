@@ -282,25 +282,7 @@ about {
 
 
   /* Menu */
-  .menu-item h1{
-    text-align: center;
-    margin-top: -47px;
-    background-color: white;
-    width: 25%;
-  }
-
-
-  img[alt="hero-menu"] {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .background-pic-container{
-  display: block;
-  width: 100%;
-  height: auto;
-  }
+ 
 
   .menu-container h1, .menu-container h2, .menu-container p, .menu-container {
   font-family: 'Cormorant', serif;

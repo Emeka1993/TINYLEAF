@@ -1,25 +1,27 @@
 .hero {
-    display: grid;
-    grid-template-areas: "picture";
-    place-items: center;
-
+  display: grid;
+  grid-template-areas: "picture";
+  place-items: center;
 }
 
-
 .hero img {
-    max-width: 102%;
-    grid-area: picture;
+  max-width: 102%;
+  grid-area: picture;
 }
 
 .hero h1 {
-  grid-area: picture;
-  color: white;
-  font-family: 'Cormorant';
-  font-size: 88px;
-  max-width: 30rem;
+grid-area: picture;
+color: white;
+font-family: 'Cormorant';
+font-size: 88px;
+max-width: 30rem;
 }
 
-
+@media only screen and (max-width: 767px) {
+.hero h1 {
+  font-size: 40px;
+}
+}
 
 
 

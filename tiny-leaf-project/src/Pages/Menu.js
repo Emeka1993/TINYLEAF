@@ -15,17 +15,15 @@ const Menu = () => {
         <div className="menu-item">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
           <h1>Loose leaf teas</h1>
-          <h2>Darjeeling</h2>
-          <p>A refined and ligh Black tea from the region the Tibetans call “country of storms” after the thick mist that rests on the plantations</p>
-          <div className="price">
-            <p>Price: £4.50</p>
-          </div>
-        </div>
-        <div className="menu-item">
-          <h2>Blue Earl Grey</h2>
-          <p>A delicate blend of blueberry flower and sunflower petals with Earl Grey aromas</p>
-          <div className="price">
-            <p>Price: £4.50</p>
+          <div className="menu-item">
+          <h3 className="menu-heading">Darjeeling</h3>
+          <div class="menu-box">
+            <p class="menu-description">
+              A refined and light Black tea from the region the Tibetans call
+              “country of storms” after the thick mist that rests on the
+              plantations
+            </p>
+            <p className="menu-price">Price: £4.50</p>
           </div>
         </div>
         <div className="menu-item">
@@ -90,6 +88,7 @@ const Menu = () => {
   </div>
   </div>
   </div>
+</div>
 </div>
   )
 }
