@@ -365,6 +365,9 @@ about {
       }
       
       .reserve-button {
+      position: relative;
+      margin-top: 200px;
+      right: 350px;
       background-color: white;
       color: rgb(0, 163, 87);
       padding: 12px 24px;
@@ -502,4 +505,20 @@ about {
       
       
       
+      .background-pic-container {
+        position: absolute;
+        bottom: -900px;
+        right: 150px;
+      }
+
+
+      .centered-content {
+        margin-top: 10px;
+        
+      }
+
+
+      .centered-content h3{
+        color: #ffffff;
+      }
       
