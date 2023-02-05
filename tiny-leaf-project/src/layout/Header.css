@@ -1,11 +1,12 @@
 header {
   background-color: #86907D;
+
+  width: 100%
   }
   
   @media (max-width: 480px) {
   header {
   background-color: #86907D;
-  width: 100%;
   }
   }
   
