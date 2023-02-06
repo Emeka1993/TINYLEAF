@@ -130,7 +130,8 @@ input {
     }
     }
     
+    .title-subtitle p{
+      margin-bottom: -180px;
+    }
     
-    
-    
-    
+  

@@ -9,7 +9,33 @@ const Menu = () => {
   return (
     <div>
       <img src={Hero} alt="" className="menupic-hero"/>
+        <div className="container">
+      <h1>Loose Leaf Teas</h1>
 
+      <h2 className="subtitle">Darjeeling</h2>
+      <p className="ptag">A refined and ligh Black tea from the region the Tibetans call “country of storms” after the thick mist that rests on the plantations</p>
+      <p className="price">£4.50</p>
+
+      <h2 className="subtitle">Blue Earl Grey</h2>
+      <p className="ptag">A delicate blend of blueberry flower and sunflower petals with Earl Grey aromas</p>
+      <p className="price">£4.50</p>
+
+      <h2 className="subtitle">Organic Mango and Papaya</h2>
+      <p className="ptag">A mix of Indian Black tea, Ceylan, Assam and Chinese Green tea, along with dried mango and papaya for a sweet exotic flavour</p>
+      <p className="price">£5</p>
+
+      <h2 className="subtitle">White Magic</h2>
+      <p className="ptag">White tea sprinkled with rose buttons and marigold, with aromas of passion fruit, peach and apricot</p>
+      <p className="price">£5</p>
+
+      <h2 className="subtitle">Wise Flower</h2>
+      <p className="ptag">An unusual blend of rose, Sencha Green tea, dates and gooseberry petals. Refreshing and seasonal.</p>
+      <p className="price">£5</p>
+
+      <h2 className="subtitle">Night at the Palace</h2>
+      <p className="ptag">Earl Grey aromas, kiwi, yellow peach, orange blossom and violet make this one of our most exquisite blends</p>
+      <p className="price">£5.50</p>
+    </div>
     </div>
   )
 }

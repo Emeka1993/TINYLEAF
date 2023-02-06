@@ -1,3 +1,37 @@
-.menupic-hero{
-    width: 101%
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+.subtitle {
+font-family: 'Cormorant', serif;
+color: #8A9A5B;
 }
+
+.menupic-hero{
+    width: 100%
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.subtitle {
+  margin-top: 20px;
+}
+
+.ptag {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.price {
+  width: 80%;
+  text-align: right;
+  margin-top: -33px;
+
+}
+
+  
+  
+  

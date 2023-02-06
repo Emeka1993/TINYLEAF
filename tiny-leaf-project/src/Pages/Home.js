@@ -18,7 +18,7 @@ function Home() {
   return (
   <div>
   <body>
-  <Hero img={heroImage} text={'A flavour of all seasons'}/>
+  <Hero img={heroImage} text={'A flavour of all seasons'} />
   <div className="about">
   <section className="about-text">
   <h2>Our blends</h2>
