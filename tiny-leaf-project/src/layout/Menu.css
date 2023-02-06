@@ -33,5 +33,25 @@ color: #8A9A5B;
 }
 
   
-  
-  
+.gold-biscuit {
+  border: 2px solid #b59c57;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+
+}
+
+
+.special-week h1{
+  background-color: white;
+  position: absolute;
+  padding-top: 20px;
+  margin-top: -3%;
+  left: 40px;
+}
+
+
+.Backgroundpic {
+ width: 100%;
+ margin-top: 40%;
+}
