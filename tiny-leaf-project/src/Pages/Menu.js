@@ -55,9 +55,17 @@ const Menu = () => {
           <p className="ptag">Earl Grey aromas, kiwi, yellow peach, orange blossom and violet make this one of our most exquisite blends</p>
           <p className="price">£5.50</p>
         </div>
+        <img src={Backgroundpic} alt="" className="menupic"/>
+        <div className="Eba">
+      <h1 className="Eba-title">Eba</h1>
+      <p className="Eba-subtitle">
+        For anything from a catchup with a long lost friend to a book club gathering... we’re always ready to put the kettle on.
+      </p>
+      <button className="Eba-button">Reserve a Table</button>
+    </div>
       </div>
     </div>
-comm
+
   );
 }
 

@@ -42,16 +42,53 @@ color: #8A9A5B;
 }
 
 
-.special-week h1{
-  background-color: white;
-  position: absolute;
-  padding-top: 20px;
-  margin-top: -3%;
+.special-week{
+  padding-top: 70px;
   left: 40px;
+  background-color: white;
 }
 
 
 .Backgroundpic {
  width: 100%;
  margin-top: 40%;
+}
+
+.menupic{
+  width: 100%
+}
+
+
+
+.menupic {
+  width: 100%;
+
+}
+
+.Eba {
+  text-align: center;
+  position: absolute;
+  top: 2200px;
+  left: 190px;
+}
+
+.Eba-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+  right: 10px;
+}
+
+.Eba-subtitle {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  left: 30px;
+}
+
+.Eba-button {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  border-radius: 5px;
 }
