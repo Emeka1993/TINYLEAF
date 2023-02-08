@@ -69,7 +69,7 @@
     }
     
 
-    . h3 {
+    .h3 {
       margin-bottom:10px;
      }
     
@@ -78,6 +78,9 @@
       margin-top: 10px;
     }
 
+    .tea-info-text {
+      margin-top: 14%;
+    }
 
 
     

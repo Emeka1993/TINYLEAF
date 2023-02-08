@@ -1,5 +1,6 @@
 .center-form {
     display: flex;
+    margin-top: 120px;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -134,4 +135,4 @@ input {
       margin-bottom: -180px;
     }
     
-  
+    
