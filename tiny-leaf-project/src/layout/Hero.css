@@ -26,10 +26,8 @@ max-width: 30rem;
   font-size: 40px;
 }
 .hero img {
-  width: 700px;
-  height: 500px;
-  margin-top: 80px;
-  margin-right: 24px;
+  background-position: center;
+  height: 70vh;
 }
 
 

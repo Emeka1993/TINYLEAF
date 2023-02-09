@@ -1,8 +1,6 @@
 import React from 'react';
 import Hero from '../images/menuhero.png';
 import Backgroundpic from '../images/backgroundpic2.jpeg';
-import specials from '../images/specialsmenu.png'
-import Header from '../layout/Header';
 import '../layout/Menu.css'
 
 
