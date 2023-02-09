@@ -13,19 +13,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero h1 {
 grid-area: picture;
 color: white;
@@ -38,6 +25,14 @@ max-width: 30rem;
 .hero h1 {
   font-size: 40px;
 }
+.hero img {
+  width: 700px;
+  height: 500px;
+  margin-top: 80px;
+  margin-right: 24px;
+}
+
+
 }
 
 
