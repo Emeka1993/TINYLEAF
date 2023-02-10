@@ -128,10 +128,11 @@ about {
   }
   @media (max-width: 480px) {
   .green-box {
-  margin-top: 80px;
+  margin-top: 13rem;
   display: flex;
-  width: 200px;
-  height: 800px;
+  width: 50%;
+  height: 20%;
+ 
   }
   }
   .text-box {
@@ -152,7 +153,8 @@ about {
   }
   @media (max-width: 480px) {
   .teapot {
-  width: 150%;
+  width: 260%;
+  height: %;
   }
   }
   .flowersimage {
@@ -160,6 +162,7 @@ about {
   grid-column: 4 /6;
   grid-row: 3 / 5;
   }
+
   @media (max-width: 480px) {
   .flowersimage {
     position: relative;
