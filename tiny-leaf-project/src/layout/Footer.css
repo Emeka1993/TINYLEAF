@@ -61,11 +61,14 @@
     display: block;
     margin: 0 auto;
     height: 30px;
+    margin-top: 2px;
+    width:150%;
     }
     
     .footer table {
     display: block;
     margin: 0 auto;
+  
     }
     
     .opening-hours,
@@ -82,8 +85,12 @@
     padding-right: 0;
     text-align: center;
     }
+    .footer img{
+      margin-right: 100px;
     }
-    
+    }
+
+   
     
     
     

@@ -9,6 +9,13 @@ about {
   about {
   padding: 1rem 2rem;
   }
+
+
+
+
+
+
+  
   }
   .about-text {
   flex: 1;
@@ -122,7 +129,8 @@ about {
   @media (max-width: 480px) {
   .green-box {
   margin-top: 80px;
-  width: 400px;
+  display: flex;
+  width: 200px;
   height: 800px;
   }
   }
@@ -144,8 +152,7 @@ about {
   }
   @media (max-width: 480px) {
   .teapot {
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
+  width: 150%;
   }
   }
   .flowersimage {
