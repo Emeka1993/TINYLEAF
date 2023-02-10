@@ -130,6 +130,7 @@ about {
   .green-box {
   margin-top: 13rem;
   display: flex;
+  margin-left: -10%;
   width: 50%;
   height: 20%;
  
@@ -141,7 +142,7 @@ about {
   }
   @media (max-width: 480px) {
   .text-box {
-   margin-top: 600px;
+   margin-top: 200px;
    width: 400px;
    margin-left: -220px;
 
@@ -166,10 +167,13 @@ about {
   @media (max-width: 480px) {
   .flowersimage {
     position: relative;
-    margin-top: 15em;
-    right: 30em;
+    margin-top: 3em;
+    right: 20em;
     width: 500px;
   }
+
+
+
   }
   
   .img-center {
@@ -183,6 +187,16 @@ about {
       display: block;
       margin: 50px auto 0;
     }
+  }
+
+
+  
+
+  .center {
+    color: white;
+    font-family: 'Cormorant';
+    font-size: 4px;
+    margin-top: -10px;
   }
   
 
@@ -231,10 +245,23 @@ about {
   }
   
 
+ 
+  @media only screen and (max-width: 767px) {
+    button {
+      background-color: white;
+      margin-bottom: 49px;
+      color: #86907D;
+      font-family: "Cormorant";
+      border: 1px solid black;
+      border-radius: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
 
 
-
-
+  
 
 
 
@@ -395,7 +422,16 @@ about {
         margin-top: 300px;
       }
       
-      
+      @media only screen (max-width: 480px){
+        .reserve-button {
+          margin-top: 23px;
+          background-color: white;
+          color: rgb(0, 163, 87);
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          }
+      }
       
       
       /* Reserve */
