@@ -249,7 +249,7 @@ about {
   @media only screen and (max-width: 767px) {
     button {
       background-color: white;
-      margin-bottom: 49px;
+      margin-top: 1em;
       color: #86907D;
       font-family: "Cormorant";
       border: 1px solid black;
