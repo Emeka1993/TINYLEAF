@@ -1,10 +1,5 @@
 import '../layout/Globals.css';
 import '../layout/Hero.css';
-
-
-
-
-
 import blends from '../images/blends.jpeg'
 import teapot from '../images/teapot.png'
 import flowerspic from '../images/flowersimage.png'

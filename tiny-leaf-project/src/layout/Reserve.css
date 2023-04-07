@@ -5,6 +5,7 @@
     font-family: "Cormorant";
     
   }
+
   
   .tea-info {
     display: flex;
@@ -32,6 +33,11 @@
     top: -150px;
     margin-bottom: -50px;
     position: relative;
+  }
+
+  .title-subtitle p{
+    margin-bottom: 10px
+    ;
   }
 
   .blends {

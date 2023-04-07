@@ -9,7 +9,6 @@ import Menu from '../src/Pages/Menu'
 
 
 
-
 function App() {
   return (
     <div className="App">

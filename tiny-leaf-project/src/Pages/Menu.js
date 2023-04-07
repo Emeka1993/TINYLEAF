@@ -3,9 +3,6 @@ import Hero from '../images/menuhero.png';
 import Backgroundpic from '../images/backgroundpic2.jpeg';
 import '../layout/Menu.css'
 
-
-
-
 const Menu = () => {
   return (
     <div>
